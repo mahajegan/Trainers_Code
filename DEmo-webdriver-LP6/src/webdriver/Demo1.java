@@ -23,6 +23,7 @@ public class Demo1 {
 		driver.findElement(By.id("btnLogin")).click();
 		// This is used fetch the title of the page
 		String ActualTitle= driver.getTitle();
+		System.out.println("Actual Title is");
 		System.out.println(ActualTitle);
 		if(ExpectedTitle.equals(ActualTitle))
 		{
